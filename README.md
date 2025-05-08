@@ -1,12 +1,77 @@
-# React + Vite
+# 🔍 Iriscope
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Iriscope** is a beautifully crafted, interactive playground for exploring unsupervised learning — combining machine learning clarity with stunning frontend storytelling. Dive into clusters, simulations, and notebook-style explanations all in one elegant space.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📊 Visualize **K-Means clustering** on real datasets
+- 🌐 Explore a **3D interactive simulation**
+- ✍️ Notebook-style **About page** with typing animation
+- 🧠 Font toggle for creative or technical reading modes
+- 🎨 Elegant Web3-inspired UI with gradients & textures
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Previews
+
+| Home Page              | Cluster Chart View        | 3D Interactive Simulation    |
+|------------------------|---------------------------|------------------------------|
+| ![](./public/previews/home.png) | ![](./public/previews/cluster.png) | ![](./public/previews/simulation.png) |
+
+---
+
+## 🚀 Technologies Used
+
+- React + Vite ⚛️
+- Three.js via `@react-three/fiber`
+- Tailwind CSS + Framer Motion
+- `react-type-animation` ✍️
+- `@react-three/drei` (orbit controls, stars, etc.)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/manjil-budhathoki/Iriscope.git
+
+# Navigate into the folder
+cd iriscope
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+```
+
+---
+
+## 🌍 Live Demo
+
+> Will be available at: [https://iriscope.vercel.app](https://iriscope.vercel.app)
+
+---
+
+## 🤝 Contributing
+
+We love collaboration — whether you're an ML nerd, a designer, or a writer. Fork the repo, open an issue, or just drop by to chat!
+
+---
+
+## 📝 License
+
+MIT License © 2024 Manjil Budhathoki & Contributors
+
+---
+
+## 📫 Connect with Us
+
+- GitHub: [@manjil-budhathoki](https://github.com/manjil-budhathoki)
+- LinkedIn: [Manjil Budhathoki](https://linkedin.com/in/manjil-budhathoki)
+- Twitter: [@manjilbudhathoki](https://twitter.com/manjilbudhathoki)
+
+---

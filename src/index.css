@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Base layout */
+body {
+    @apply font-sans bg-[#0e0e0e] text-white antialiased min-h-screen;
+    scroll-behavior: smooth;
+  }
+  
+  /* Optional: Gradient animation (for future glowing effects) */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-gradient {
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+  }
+  
+  /* Custom blur sizes for Web3 visual depth */
+  .blur-3xl {
+    filter: blur(160px);
+  }
+  .blur-2xl {
+    filter: blur(120px);
+  }
+  .blur-xl {
+    filter: blur(80px);
+  }
+  
+  /* Typography polish */
+  a {
+    @apply transition duration-200 ease-in-out;
+  }
